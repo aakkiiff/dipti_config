@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: aaakkiiff/diptitest:02
+        image: aakkiiff/diptitest:02
         resources:
           limits:
             memory: "128Mi"

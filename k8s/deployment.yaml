@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: myapp
 spec:
-  replicas: 6
+  replicas: 1
   selector:
     matchLabels:
       app: myapp
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: aakkiiff/dipti_main:1
+        image: aaakkiiff/diptitest:02
         resources:
           limits:
             memory: "128Mi"

@@ -7,8 +7,8 @@ pipeline {
     
     environment {
 
-        // GIT_REPO = "https://github.com/aakkiiff/demo_config.git" 
-        // APP_NAME = "demo_frontend"
+        GIT_REPO = "https://github.com/aakkiiff/demo_config.git" 
+        APP_NAME = "demo_frontend"
 
     }
 

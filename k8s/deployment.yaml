@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: aakkiiff/demo_frontend:22
+        image: aakkiiff/demo_frontend:23
         resources:
           limits:
             memory: "128Mi"
